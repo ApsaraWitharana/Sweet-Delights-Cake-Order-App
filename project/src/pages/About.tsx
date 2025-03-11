@@ -3,7 +3,7 @@ import { Cake, Heart, Award, Users } from 'lucide-react';
 
 const About = () => {
   return (
-      <div className="space-y-12">
+      <div className="space-y-12 ml-30 mr-30">
         <div className="text-center space-y-4 ml-20 mr-20">
           <h1 className="text-4xl font-bold text-gray-800">About Sweet Delights</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -11,7 +11,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8  ml-50 mr-50">
+        <div className="grid md:grid-cols-2 gap-8  ">
           <div className="relative h-[300px] rounded-xl overflow-hidden">
             <img
                 src="https://tse1.mm.bing.net/th?id=OIP.PS9ewvlZmFUbKxPAE9kxqQHaE7&pid=Api&P=0&h=220"
@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
 
-            <div className="grid md:grid-cols-2 gap-8  ml-50 mr-50">
+            <div className="grid md:grid-cols-2 gap-8 ">
               <div className="space-y-6 flex flex-col justify-center">
                 <h2 className="text-3xl font-semibold">Our Story</h2>
                 <p className="text-gray-600">

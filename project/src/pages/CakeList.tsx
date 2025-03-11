@@ -255,7 +255,7 @@ const CakeList = () => {
         <div className="text-center mt-6">
           <button
               onClick={handleShowMore}
-              className="px-6 py-2 text-lg font-semibold bg-pink-500 text-white rounded-md hover:bg-pink-600 transition-colors"
+              className="px-6 py-2 text-lg font-semibold bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-colors"
           >
             {cakesToShow === 4 ? 'Show More Cakes' : 'Show Fewer Cakes'}
           </button>
